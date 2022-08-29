@@ -1,5 +1,5 @@
 {
-    "name": "TheMystic-Bot-MD",
+    "name": "Shizu-Bot",
     "version": "1.0.0",
     "description": "Subscribete al canal de YT The Shadow Borkers",
     "main": "index.js",
@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+    "homepage": "https://github.com/Shizu-Hub/Shizu-Bot",
     "author": {
         "name": "BrunoSobrino"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git"
+        "url": "git+https://github.com/Shizu-Hub/Shizu-Bot.git"
     },
     "bugs": {
-        "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
+        "url": "https://github.com/Shizu-Hub/Shizu-Bot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
