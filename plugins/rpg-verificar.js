@@ -1,30 +1,86 @@
 import { createHash } from 'crypto'
-let handler = async function (m, { text, usedPrefix }) {
-let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
-let user = global.db.data.users[m.sender]
-if (user.registered === true) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙷𝙴𝚈! 𝚈𝙰 𝙴𝚂𝚃𝙰𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾*\n\n*𝚀𝚄𝙸𝙴𝚁𝙴𝚂 𝚀𝚄𝙸𝚃𝙰𝚁 𝚃𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾? 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}unreg <numero de serie>*\n\n*𝚂𝙸 𝙽𝙾 𝚁𝙴𝙲𝚄𝙴𝚁𝙳𝙰𝚂 𝚃𝚄 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴 𝙿𝚄𝙴𝙳𝙴𝚂 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}myns*`
-let name = conn.getName(m.sender)
-let age = Math.floor(Math.random() * 41)
-age = parseInt(age)
-user.name = name.trim()
-user.age = age
-user.regTime = + new Date
-user.registered = true
-let sn = createHash('md5').update(m.sender).digest('hex')
-let caption = `┏┅ ━━━━━━━━━━━━ ┅ ━
-┇「 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 」
-┣┅ ━━━━━━━━━━━━ ┅ ━
-┃ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${name}
-┃ *𝙴𝙳𝙰𝙳:* ${age} años
-┃ *𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
-┃ ${sn}
-┗┅ ━━━━━━━━━━━━ ┅ ━`
-let author = global.author
-conn.sendButton(m.chat, caption, `¡𝚃𝚄 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴 𝚃𝙴 𝚂𝙴𝚁𝚅𝙸𝚁𝙰 𝙿𝙾𝚁 𝚂𝙸 𝙳𝙴𝚂𝙴𝙰𝚂 𝙱𝙾𝚁𝚁𝙰𝚁 𝚃𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙴𝙽 𝙴𝙻 𝙱𝙾𝚃!\n${author}`, [['¡¡𝙰𝙷𝙾𝚁𝙰 𝚂𝙾𝚈 𝚄𝙽 𝚅𝙴𝚁𝙸𝙵𝙸𝙲𝙰𝙳𝙾/𝙰!!', '/profile']], m)
-global.db.data.users[m.sender].money += 10000
-global.db.data.users[m.sender].exp += 10000
+let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
+let handler = async function (m, { text, usedPrefix, command }) {
+	function pickRandom(list) {
+  return list[Math.floor(Math.random() * list.length)]
 }
-handler.help = ['verificar']
+	let namae = conn.getName(m.sender)
+	const sections = [
+	{
+	title: "Selecciona Tu Edad Aqui!",
+	rows: [
+	    {title: "Años Random", rowId: '.reg ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	]
+    },
+    {
+	title: "ADULTO",
+	rows: [
+	    {title: "30 Años", rowId: '.reg ' + namae + '.30 '},
+	    {title: "29 Años", rowId: '.reg ' + namae + '.29 '},
+	    {title: "28 Años", rowId: '.reg ' + namae + '.28 '},
+	{title: "27 Años", rowId: '.reg ' + namae + '.27 '},
+	{title: "26 Años", rowId: '.reg ' + namae + '.26 '},
+	{title: "25 Años", rowId: '.reg ' + namae + '.25 '},
+	{title: "24 Años", rowId: '.reg ' + namae + '.24 '},
+	{title: "23 Años", rowId: '.reg ' + namae + '.23 '},
+	{title: "22 Años", rowId: '.reg ' + namae + '.22 '},
+	{title: "21 Años", rowId: '.reg ' + namae + '.21 '}
+	]
+    },
+    {
+	title: "JOVEN",
+	rows: [
+	    {title: "20 Años", rowId: '.reg ' + namae + '.20 '},
+	    {title: "19 Años", rowId: '.reg ' + namae + '.19 '},
+	    {title: "18 Años", rowId: '.reg ' + namae + '.18 '},
+	{title: "17 Años", rowId: '.reg ' + namae + '.17 '},
+	{title: "16 Años", rowId: '.reg ' + namae + '.16 '},
+	{title: "15 Años", rowId: '.reg ' + namae + '.15 '},
+	{title: "14 Años", rowId: '.reg ' + namae + '.14 '},
+	{title: "13 Años", rowId: '.reg ' + namae + '.13 '},
+	{title: "12 Años", rowId: '.reg ' + namae + '.12 '},
+	{title: "11 Años", rowId: '.reg ' + namae + '.11 '},
+	{title: "10 Años", rowId: '.reg ' + namae + '.10 '},
+	{title: "9 Años", rowId: '.reg ' + namae + '.9 '}
+	]
+    },
+]
+
+const listMessage = {
+  text: `Por favor selecciona tu edad pulsando el boton...\n*Tu nombre:* ${conn.getName(m.sender)}\nQuieres poner otro mombre? Escribe *${usedPrefix + command} TuNombre.TusAños*`,
+  footer: global.wm,
+  title: "━━━━「 Registro 」━━━━",
+  buttonText: "Pulsa Aqui!",
+  sections
+}
+
+  let user = global.db.data.users[m.sender]
+  if (user.registered === true) throw `[💬] Ya estás registrado\nQuieres volver a registrarte? *${usedPrefix}unreg <NUMERO SN>*`
+  if (!Reg.test(text)) return conn.sendMessage(m.chat, listMessage, m)
+  let [_, name, splitter, age] = text.match(Reg)
+  if (!name) throw 'El nombre no puede estar vacío (Letras)'
+  if (!age) throw 'La edad no puede estar vacía (Numeros)'
+  age = parseInt(age)
+  if (age > 30) throw 'Que viejo (。-`ω´-)'
+  if (age < 5) throw 'Los bebes no saben escribir ._.'
+  user.name = name.trim()
+  user.age = age
+  user.regTime = + new Date
+  user.registered = true
+  let sn = createHash('md5').update(m.sender).digest('hex')
+  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
+  m.reply(`
+━━━━ 「 *Registro Completado* 」━━━━
+╭─• 〘 INFO 〙
+│✧ *Nombre:* ${name}
+│✧ *Edad:* ${age} Años
+│✧ *SN:* ${sn}
+▣──────···
+`.trim())
+}
+handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['xp']
-handler.command = /^(verify|register|verificar|reg|registrar)$/i
+
+handler.command = /^(verify|verificar|registrar|reg(ister)?)$/i
+
 export default handler
