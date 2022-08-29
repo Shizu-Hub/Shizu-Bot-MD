@@ -484,6 +484,7 @@ throw e
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i
 handler.exp = 50
 handler.fail = null
+handler.register = true
 export default handler
 
 const more = String.fromCharCode(8206)
