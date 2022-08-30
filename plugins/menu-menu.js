@@ -469,7 +469,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 `.trim()
-conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.instagram.com/invites/contact/?i=10au7s55cjvgg&utm_content=paev3we', '👑 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼 👑', 'wa.me/34623442554', '✨ 𝙾𝚆𝙽𝙴𝚁 ✨', [
+conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.instagram.com/invites/contact/?i=10au7s55cjvgg&utm_content=paev3we', '👑 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼 👑', 'wa.me//34623442554', '✨ 𝙾𝚆𝙽𝙴𝚁 ✨', [
 ['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
 ['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
 ['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
