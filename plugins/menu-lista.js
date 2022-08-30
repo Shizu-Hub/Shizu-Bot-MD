@@ -66,8 +66,7 @@ rows: [
 	title: "𝗢𝗪𝗡𝗘𝗥",
 	rows: [
                 {title: "𝗨𝗣𝗗𝗔𝗧𝗘", description: '𝗔𝗖𝗧𝗨𝗔𝗟𝗜𝗭𝗔𝗥 𝗕𝗢𝗧', rowId: `${usedPrefix}update`},
-]}, ]
- 
+]}, ] 
 let name = await conn.getName(m.sender)
 const listMessage = {
 text: `*📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
