@@ -7,7 +7,7 @@
 </div>
   
 ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
-  <p align="center">
+  <p align="left">
 <a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=Solo+escr%C3%ADba+si+tiene+dudas." height="40px"
 </p>
   
