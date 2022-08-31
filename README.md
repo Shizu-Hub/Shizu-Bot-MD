@@ -7,7 +7,7 @@
 </div>
   
 ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
-<a href="http://wa.me/34623442554" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/34623442554" target="blank"><img src="https://img.shields.io/badge/Shizu-Hub-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <a href="https://chat.whatsapp.com/Eec9Dd1uVd90Ac0U8mTgUh" target="red"><img src="https://img.shields.io/badge/Dark-Side-25D366?style=for-the-badge&logo=whatsapp&logoColor=red" />
 </a>
