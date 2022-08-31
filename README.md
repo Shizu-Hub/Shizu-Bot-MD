@@ -11,6 +11,11 @@
 
 <a href="https://chat.whatsapp.com/Eec9Dd1uVd90Ac0U8mTgUh" target="red"><img src="https://img.shields.io/badge/Dark-Side-25D366?style=for-the-badge&logo=whatsapp&logoColor=red" />
 </a>
+  
+
+<p align="hihg">   
+<a href="https://instagram.com/shizu.bot" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=yellow" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
+  
 > LOS NUMEROS NO SON BOTS Y EN EL GRUPO NO SE PERMITEN NUMEROS-BOTS
 
 ### `—◉ 💰 DONAR 💰`
