@@ -45,7 +45,7 @@ rows: [
 ]}, ] 
 let name = await conn.getName(m.sender)
 const listMessage = {
-text: `*ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
+text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔𝗦
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔𝗦/>*
@@ -69,7 +69,7 @@ conn.sendMessage(m.chat, listMessage)
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(menucompleto|menu|menú|memu|memú|help|info|comandos|2help|ayuda|commands|commandos|m|\?)$/i
+handler.command = /^(menubusqueda|\?)$/i
 handler.exp = 50
 handler.register = true
 export default handler
