@@ -92,7 +92,7 @@ conn.sendMessage(m.chat, listMessage)
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(menucreador|\?)$/i
+handler.command = /^(creador|\?)$/i
 handler.exp = 50
 handler.register = true
 export default handler
