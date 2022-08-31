@@ -69,7 +69,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ### `—◉ 💥 ACTIVAR EN ACIDICNODES 💥`
 <a href="https://billing.acidicnodes.ml/register?ref=nSzLjTPd" width="100" height="100" alt="acidicnodes"/></a>
 - TUTORIAL: [https://youtu.be/nbjvreJ0tUk](https://youtu.be/nbjvreJ0tUk)
-- PAGINA: [https://billing.acidicnodes.ml/register?ref=ADII104p](https://billing.acidicnodes.ml/register?ref=ADII104p)
+- PAGINA: [https://billing.acidicnodes.ml/register?ref=nSzLjTPd](https://billing.acidicnodes.ml/register?ref=nSzLjTPd)
 - SOPORTE: [https://whatsapp.acidicnodes.com](https://whatsapp.acidicnodes.com)
 
 ### `—◉ 📝 NOTAS 📝`
