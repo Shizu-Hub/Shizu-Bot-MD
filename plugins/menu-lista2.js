@@ -80,6 +80,8 @@ text: `*📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
 ║➤ *Creador del Bot: 𝗦𝗵𝗶𝘇𝘂* 
 ║➤ *N° del creador:* wa.me/34623442554 (No bot) 
 ║➤ *Me apoyarias mucho con una donacion a seguir desarrollando el bot*
+║➤ *Apoyame registrandote en esta web*
+║➤ *https://billing.acidicnodes.ml/register?ref=nSzLjTPd*
 ║➤ *Mis redes: atom.bio/shizu_ofc*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
