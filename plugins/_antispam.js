@@ -10,8 +10,8 @@ lastspam: 0
 this.spam[spaming.jid] = spaming
 } else try {
 this.spam[m.sender].spam += 1
-if (new Date - this.spam[m.sender].lastspam > 4000) {
-if (this.spam[m.sender].spam > 6) {
+if (new Date - this.spam[m.sender].lastspam > 400) {
+if (this.spam[m.sender].spam > 5) {
 this.spam[m.sender].spam = 0
 this.spam[m.sender].lastspam = new Date * 1
 //global.DATABASE._data.users[m.sender].Banneduser = true
