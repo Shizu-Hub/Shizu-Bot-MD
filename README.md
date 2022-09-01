@@ -44,8 +44,8 @@
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/Shizu-Hub/Shizu-Termux
-> cd Shizu-Termux
+> git clone https://github.com/Shizu-Hub/WaBot-MD
+> cd WaBot-MD
 > yarn install 
 > npm install
 > npm update
@@ -57,7 +57,7 @@
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Shizu-Termux
+> cd WaBot-MD
 > npm start
 ```
 
@@ -67,7 +67,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
 > cd Shizu-Termux
-> rm -rf ShizuSession
+> rm -rf WaBot-MDSession
 > npm start
 ```
   
