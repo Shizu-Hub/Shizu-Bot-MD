@@ -11,27 +11,22 @@ let text = `
 
 *—◉ 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙰𝙲𝙸𝙳𝙸𝙲𝙽𝙾𝙳𝙴𝚂 𝙷𝙾𝚂𝚃*
 > Tutorial: https://youtu.be/nbjvreJ0tUk
-> Pagina: https://billing.acidicnodes.ml/register?ref=ADII104p
+> Pagina: https://billing.acidicnodes.ml/register?ref=nSzLjTPd
 > Soporte: https://whatsapp.acidicnodes.com
 
 ------------------------------------
 
 *—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚃𝙴𝚁𝙼𝚄𝚇*
-> cd
-> termux-setup-storage
-> apt update 
-> pkg upgrade 
-> pkg install git -y
-> pkg install nodejs -y
-> pkg install ffmpeg -y
-> pkg install imagemagick -y
+> pkg install
+> pkg upgrade
+> pkg install git
+> pkg install ffmpeg && pkg install libwebp
+> pkg install nodejs
 > pkg install yarn
-> git clone https://github.com/BrunoSobrino/Mystic-termux
-> cd Mystic-termux
-> yarn install 
+> git clone https://github.com/elrebelde21/The-whatbot-MD
+> cd The-whatbot-MD
 > npm install
-> npm update
-> npm install 
+> yarn
 > npm start`  
 m.reply(text)   
 }
