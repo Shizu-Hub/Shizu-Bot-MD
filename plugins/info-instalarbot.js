@@ -23,8 +23,8 @@ let text = `
 > pkg install ffmpeg && pkg install libwebp
 > pkg install nodejs
 > pkg install yarn
-> git clone https://github.com/elrebelde21/The-whatbot-MD
-> cd The-whatbot-MD
+> git clone https://github.com/Shizu-Hub/WaBot-MD
+> cd WaBot-MD
 > npm install
 > yarn
 > npm start`  
