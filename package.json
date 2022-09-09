@@ -1,7 +1,7 @@
 {
     "name": "Shizu-Bot",
     "version": "1.0.0",
-    "description": "Subscribete al canal de YT The Shadow Borkers",
+    "description": "Sigueme en instagram: @shizu.bot",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,21 +14,22 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/Shizu-Hub/Shizu-Bot",
+    "homepage": "https://github.com/Shizu-Hub/Shizu-Bot-MD",
     "author": {
-        "name": "BrunoSobrino"
+        "name": "Shizu-Hub"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Shizu-Hub/Shizu-Bot.git"
+        "url": "git+https://github.com/Shizu-Hub/Shizu-Bot-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/Shizu-Hub/Shizu-Bot/issues"
+        "url": "https://github.com/Shizu-Hub/Shizu-Bot-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
         "@adiwajshing/baileys": "github:BrunoSobrino/baileys",
         "@bochilteam/scraper": "^3.0.0",
+        "@sarequl/client-ip-details": "^1.1.1",
         "acrcloud": "^1.4.0",
         "awesome-phonenumber": "^2.68.0",
         "axios": "^0.24.0",
@@ -38,6 +39,7 @@
         "colors": "1.4.0",
         "emoji-api": "^1.0.2",
         "express": "^4.17.3",
+        "fg-ig": "^0.0.1",
         "file-type": "^17.1.1",
         "fluent-ffmpeg": "^2.1.2",
         "fs": "^0.0.1-security",
