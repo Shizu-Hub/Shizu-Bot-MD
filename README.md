@@ -89,9 +89,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="https://github.com/theh2so4"><img src="https://github.com/theh2so4.png" width="100" height="100" alt="theh2so4"/></a>
 <a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="100" height="100" alt="BrunoSobrino"/></a>
 <a href="https://github.com/Gustavo-Peng"><img src="https://github.com/Gustavo-Peng.png" width="100" height="100" alt="Gustavo-Peng"/></a>
-<a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="100" height="100" alt="elrebelde21"/></a>
 
 ## `EDITOR Y PORPIETARIO DEL BOT` 
 <a href="https://github.com/Shizu-Hub"><img src="https://github.com/Shizu-Hub.png" width="300" height="300" alt="Shizu"/></a>
 
-`Shizu-Bot-MD _ By Shizu Hub`
+`Shizu-Bot-MD _ By Shizu-Hub`
