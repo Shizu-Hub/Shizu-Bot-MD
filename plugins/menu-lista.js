@@ -53,7 +53,7 @@ rows: [
     {
         title: "𝗚𝗥𝗨𝗣𝗢𝗦",
 	rows: [    
-	      {title: "𝗚𝗥𝗨𝗣𝗢𝗦", description: '𝗚𝗥𝗨𝗣𝗢𝗦 𝗗𝗘𝗟 𝗕𝗢𝗧', rowId: `${usedPrefix}grouposofc`},
+	      {title: "𝗚𝗥𝗨𝗣𝗢𝗦", description: '𝗚𝗥𝗨𝗣𝗢𝗦 𝗗𝗘𝗟 𝗕𝗢𝗧', rowId: `${usedPrefix}linkgc`},
 	       	]
                 },
     {
