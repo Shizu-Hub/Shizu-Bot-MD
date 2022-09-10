@@ -90,6 +90,7 @@ export async function handler(chatUpdate) {
                 if (!('welcome' in chat)) chat.welcome = true
                 if (!('detect' in chat)) chat.detect = true
                 if (!('sWelcome' in chat)) chat.sWelcome = ''
+                if (!('sRules' in chat)) chat.sRules = ''
                 if (!('sBye' in chat)) chat.sBye = ''
                 if (!('sPromote' in chat)) chat.sPromote = ''
                 if (!('sDemote' in chat)) chat.sDemote = ''
