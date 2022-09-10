@@ -111,6 +111,7 @@ export async function handler(chatUpdate) {
                     welcome: true,
                     detect: true,
                     sWelcome: '',
+                    sRules: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
