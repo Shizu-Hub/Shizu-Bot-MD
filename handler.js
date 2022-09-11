@@ -91,6 +91,7 @@ export async function handler(chatUpdate) {
                 if (!('detect' in chat)) chat.detect = true
                 if (!('sWelcome' in chat)) chat.sWelcome = ''
                 if (!('sRules' in chat)) chat.sRules = ''
+                if (!isNumber(user.warn)) user.warn = 0
                 if (!('sBye' in chat)) chat.sBye = ''
                 if (!('sPromote' in chat)) chat.sPromote = ''
                 if (!('sDemote' in chat)) chat.sDemote = ''
@@ -112,6 +113,7 @@ export async function handler(chatUpdate) {
                     detect: true,
                     sWelcome: '',
                     sRules: '',
+                    warn: 0,
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
