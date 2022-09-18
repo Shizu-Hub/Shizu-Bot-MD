@@ -36,9 +36,9 @@ rows: [
 let name = await conn.getName(m.sender)
 const listMessage = {
 text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
-Contacto: +1 (508) 293-9236
-Gmail: TheH2SO4@protonmail.com
-PayPal: ////`, footer: `${wm}`, pp,
+Contacto: +52 1 33 1702 0532
+Gmail: ////
+PayPal: w8706525@gmail.com`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥𝗘𝗦", 
 sections }
@@ -47,7 +47,7 @@ conn.sendMessage(m.chat, listMessage)
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(hiro|\?)$/i
+handler.command = /^(xd|\?)$/i
 handler.exp = 50
 handler.register = true
 export default handler
