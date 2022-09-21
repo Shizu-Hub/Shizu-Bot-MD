@@ -50,22 +50,37 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ 📥 _${usedPrefix}facebook *<enlace / link / url>*_
-┣ 📥 _${usedPrefix}instagram *<enlace / link / url>*_
-┣ 📥 _${usedPrefix}mediafire *<enlace / link / url>*_
-┣ 📥 _${usedPrefix}instagram *<enlace / link / url>*_
-┣ 📥 _${usedPrefix}gitclone *<enlace / link / url>*_
-┣ 📥 _${usedPrefix}tiktok *<enlace / link / url>*_
-┣ 📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-┣ 📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-┣ 📥 _${usedPrefix}play *<nombre de la canción>*_
-┣ 📥 _${usedPrefix}play1 *<nombre de la canción >*_
-┣ 📥 _${usedPrefix}play2 *<nombte de la canción>*_
-┣ 📥 _${usedPrefix}playlist *<nombre de la canción>*_
-┣ 📥 _${usedPrefix}spotify *<texto>*_
-┣ 📥 _${usedPrefix}pinteret *<texto>*_
-┣ 📥 _${usedPrefix}wallpaper *<texto>*_
-┣ 📥 _${usedPrefix}wallpaper2 *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}facebook *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}mediafire *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}stickerpack *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}xvideosdl *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}play *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}playlist2 *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}ringtone *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}soundcloud *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}imagen *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}pinteret *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}wallpaper *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}wallpaper2 *<texto>*_
+┣° ඬ⃟📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
+┣° ඬ⃟📥 _${usedPrefix}igstalk *<nombre de usuario>*_
+┣° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
+┣° ඬ⃟📥 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
