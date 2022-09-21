@@ -50,16 +50,23 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔𝗦/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ 🔍 _${usedPrefix}animeinfo *<texto>*_
-┣ 🔍 _${usedPrefix}google *<texto>*_
-┣ 🔍 _${usedPrefix}imagen *<texto>*_
-┣ 🔍 _${usedPrefix}letra *<texto>*_
-┣ 🔍 _${usedPrefix}wikipedia *<texto>*_
-┣ 🔍 _${usedPrefix}ytsearch *<texto>*_
-┣ 🔍 _${usedPrefix}igstalk *<nombre de usuario>*_
-┣ 🔍 _${usedPrefix}igstalk2 *<nombre de usuario>*_
-┣ 🔍 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
-┣ 🔍 _${usedPrefix}sweb *link*_
+┣° ඬ⃟🔍 _${usedPrefix}stickersearch *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}wikipedia *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}ytsearch *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}apkdone *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}apkgoogle *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}apkmody *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}apkshub *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}happymod *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}hostapk *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}revdl *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}toraccino *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}uapkpro *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}playstore *<texto>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
