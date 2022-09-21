@@ -1,5 +1,3 @@
-/* Creditos a https://github.com/ALBERTO9883 */
-
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {	
 if (!args[0]) throw `⚠️️ *_Ingrese un texto para iniciar la escuesta._*\n\n📌 Ejemplo : \n*${usedPrefix + command}* texto|texto2...`
 if (!text.includes('|')) throw  `⚠️️ Separe las encuestas con *|* \n\n📌 Ejemplo : \n*${usedPrefix + command}* texto|texto2...`
