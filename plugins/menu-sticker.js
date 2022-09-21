@@ -50,19 +50,30 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ 👽 _${usedPrefix}s_ < *responde al archivo para crear el sticker* >
-┣ 👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
-┣ 👽 _${usedPrefix}attp *<texto>*_
-┣ 👽 _${usedPrefix}attp2 *<texto>*_
-┣ 👽 _${usedPrefix}ttp *<texto>*_
-┣ 👽 _${usedPrefix}removebg *<responder imagen>*_
-┣ 👽 _${usedPrefix}pat *<@tag>_
-┣ 👽 _${usedPrefix}kiss *<@tag>*_
-┣ 👽 _${usedPrefix}wm *<packname> <author>*_
-┣ 👽 _${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
-┣ 👽 _${usedPrefix}stickerfilter *<efecto> <responder a imagen>*_
-┣ 👽 _${usedPrefix}stickerpack *<link>*_
-┣ 👽 _${usedPrefix}bonk_
+┣° ඬ⃟👽 _${usedPrefix}sticker *<responder a imagen o video>*_
+┣° ඬ⃟👽 _${usedPrefix}sticker *<enlace / link / url>*_
+┣° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
+┣° ඬ⃟👽 _${usedPrefix}s *<enlace / link / url>*_
+┣° ඬ⃟👽 _${usedPrefix}sfull *<responder a imagen o video>*_
+┣° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+┣° ඬ⃟👽 _${usedPrefix}scircle *<responder a imagen>*_
+┣° ඬ⃟👽 _${usedPrefix}sremovebg *<responder a imagen>*_
+┣° ඬ⃟👽 _${usedPrefix}semoji *<tipo> <emoji>*_
+┣° ඬ⃟👽 _${usedPrefix}attp *<texto>*_
+┣° ඬ⃟👽 _${usedPrefix}attp2 *<texto>*_
+┣° ඬ⃟👽 _${usedPrefix}attp3 *<texto>*_
+┣° ඬ⃟👽 _${usedPrefix}ttp *<texto>*_
+┣° ඬ⃟👽 _${usedPrefix}ttp2 *<texto>*_
+┣° ඬ⃟👽 _${usedPrefix}ttp3 *<texto>*_
+┣° ඬ⃟👽 _${usedPrefix}ttp4 *<texto>*_
+┣° ඬ⃟👽 _${usedPrefix}ttp5 *<texto>*_
+┣° ඬ⃟👽 _${usedPrefix}pat *<@tag>*_
+┣° ඬ⃟👽 _${usedPrefix}slap *<@tag>*_
+┣° ඬ⃟👽 _${usedPrefix}kiss *<@tag>*_
+┣° ඬ⃟👽 _${usedPrefix}dado_
+┣° ඬ⃟👽 _${usedPrefix}wm *<packname> <author>*_
+┣° ඬ⃟👽 _${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
+┣° ඬ⃟👽 _${usedPrefix}stickerfilter *<efecto> <responder a imagen>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
