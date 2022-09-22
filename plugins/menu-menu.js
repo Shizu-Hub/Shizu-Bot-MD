@@ -468,6 +468,11 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}addprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
+° ඬ⃟☠ _${usedPrefix}𝚝𝚛𝚊𝚋𝚊𝟷_
+° ඬ⃟☠ _${usedPrefix}𝚝𝚛𝚊𝚋𝚊2_
+° ඬ⃟☠ _${usedPrefix}𝚝𝚛𝚊𝚋𝚊3_
+° ඬ⃟☠ _${usedPrefix}𝚝𝚛𝚊𝚋𝚊4_
+° ඬ⃟☠ _${usedPrefix}𝚝𝚛𝚊𝚋𝚊5_
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.instagram.com/invites/contact/?i=10au7s55cjvgg&utm_content=paev3we', '👑 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼 👑', 'http://wa.me/34623442554', '✨ 𝙾𝚆𝙽𝙴𝚁 ✨', [
 ['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
