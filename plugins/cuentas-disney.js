@@ -1,23 +1,11 @@
-let handler  = async (m, { conn }) => {
-conn.reply(m.chat,`*┌────「 DISNEY+ 」─*\n*“${pickRandom(global.disney)}”*\n*└────「 CUENTA GENERADA 」─*`, m)
-}
-handler.help = ['disney']
-handler.tags = ['fun']
-handler.limit = 5
-handler.command = /^disney/i
-export default handler
-
-function pickRandom(list) {
-  return list[Math.floor(list.length * Math.random())]
-}
-
-global.disney = [
-  "Correo: david_hession@hotmail.com Contraseña: Everton1",
-  "Correo: vikilholanda@gmail.com Contraseña: felicidade27",
-  "Correo: smitetha987@gmail.com Contraseña: smith1234",
-  "Correo: shakirabartley@gmail.com Contraseña: P@pedog1",
-  "Correo: eggencole@gmail.com Contraseña: Hunting97",
-  "Correo: julien.bestron@gmail.com Contraseña: Sucesmoi54",
-  "Correo: natalie@nativeno.com Contraseña: 4Me2know",
-
-] 
+JScriptCodeDom.CodeParseException: invalid token after export : Keyword:default , Line 8, Char 0 ---> System.Exception: invalid token after export : Keyword:default
+   at JScriptCodeDom.CodeParser.InternalParseStatementCore()
+   at JScriptCodeDom.CodeParser.InternalParseStatement()
+   at JScriptCodeDom.CodeParser.ParseStatement()
+   at JScriptCodeDom.CodeParser.ParseBlock()
+   at JScriptCodeDom.CodeParser.Parse(String code, String filename, Int32 lineoffset, Boolean keeplinenum)
+   --- End of inner exception stack trace ---
+   at JScriptCodeDom.CodeParser.Parse(String code, String filename, Int32 lineoffset, Boolean keeplinenum)
+   at ProtectorV1.Protect(String[] codes)
+   at ProtectorV1.Protect(String code)
+   at ASP.javascript_obfuscator_aspx.Button1_Click(Object sender, EventArgs e)
