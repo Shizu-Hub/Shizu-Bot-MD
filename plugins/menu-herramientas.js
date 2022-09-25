@@ -70,6 +70,7 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣ ⚒️ _${usedPrefix}del *borrar mensaje del bot respondiendo*_
 ┣ ⚒️ _${usedPrefix}qrcode *texto*_
 ┣ ⚒️ _${usedPrefix}styletext *texto*_
+┣ 🛠️ _${usedPrefix}covid *<pais>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
