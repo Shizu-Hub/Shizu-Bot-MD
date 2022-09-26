@@ -491,7 +491,7 @@ let buttons = [
 { buttonId: '#gruposofc', buttonText: { displayText: '⍟𝗚𝗥𝗨𝗣𝗢𝗦⍟' }, type: 1 }]
 //{ buttonId: '#infobot', buttonText: { displayText: '🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾' }, type: 1 }]
 let buttonMessage = {
-image: Menu2,
+image: Menu2.jpg,
 caption: str.trim(),
 mentions: [m.sender],
 footer: `*${wm}*`,
