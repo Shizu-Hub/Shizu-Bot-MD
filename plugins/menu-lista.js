@@ -76,7 +76,7 @@ text: `*╭─────────────────────❊*
 *│* *│* *N° del creador:* wa.me/34623442554*
 *│* *│* *Apoyame registrandote en esta web*
 *│* *│* *https://tinyurl.com/2jzuzsef*
-*│* *│* *Mis redes: atom.bio/shizu_ofc*
+*│* *│* *Mis redes: atom.bio/shizu-hub*
 *│* *╰────────────────❊*
 *│*    *㊏───ɪɴғᴏ───㊏*
 *│* *╭─────────────────❊*
