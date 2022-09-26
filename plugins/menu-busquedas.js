@@ -76,7 +76,7 @@ conn.sendMessage(m.chat, listMessage)
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(menubusqueda|\?)$/i
+handler.command = /^(menubusquedas|\?)$/i
 handler.exp = 50
 handler.register = true
 export default handler
