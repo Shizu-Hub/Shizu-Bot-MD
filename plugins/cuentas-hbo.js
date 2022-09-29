@@ -12,9 +12,9 @@ function pickRandom(list) {
 }
 
 global.hbo = [
-  "Correo: khaleelcooper@gmail.com Contraseña: Kcooper13 cuenta de Hoy",
-  "Correo: lmccorkle9@gmail.com Contraseña: Leyshon1 cuenta de Hoy",
-  "Correo: suzhaufler@gmail.com Contraseña: Dashlily1! cuenta de Hoy",
+  "Correo: khaleelcooper@gmail.com Contraseña: Kcooper13",
+  "Correo: lmccorkle9@gmail.com Contraseña: Leyshon1",
+  "Correo: suzhaufler@gmail.com Contraseña: Dashlily1!",
   "Correo: wordofbin+3@gmail.com Contraseña: a1652100",
   "Correo: wordofbin+4@gmail.com Contraseña: a1632086",
   "Correo: wordofbin+5@gmail.com Contraseña: a1920203",
