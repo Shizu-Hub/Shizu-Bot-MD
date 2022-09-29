@@ -12,9 +12,9 @@ function pickRandom(list) {
 }
 
 global.disney = [
-  "Correo: david_hession@hotmail.com Contraseña: Everton1",
-  "Correo: vikilholanda@gmail.com Contraseña: felicidade27",
-  "Correo: smitetha987@gmail.com Contraseña: smith1234",
+  "Correo: jetrueba2004@yahoo.com Contraseña: Amber305@",
+  "Correo: jrod9613@yahoo.com Contraseña: Baseball87*",
+  "Correo: dalofs2001@yahoo.com Contraseña: Chloecalla2",
   "Correo: shakirabartley@gmail.com Contraseña: P@pedog1",
   "Correo: eggencole@gmail.com Contraseña: Hunting97",
   "Correo: julien.bestron@gmail.com Contraseña: Sucesmoi54",
