@@ -1,9 +1,26 @@
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let text = `
-*—◉ 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙰𝙲𝙸𝙳𝙸𝙲𝙽𝙾𝙳𝙴𝚂 𝙷𝙾𝚂𝚃*
-> Tutorial: https://youtu.be/rWzCNV2J8S0
-> Pagina Oficial: https://billing.acidicnodes.ml/register?ref=nSzLjTPd
-> Soporte: http://whatsapp.acidicnodes.com/
+Download Shizu-Bot
+
+Descarga Shizu-Bot en tu número, bot de WhatsApp multi device, con comandos actualizados a diario.
+
+Bot editable con menú desplegable
+
+Link: https://youtu.be/rWzCNV2J8S0
+
+GitHub: https://github.com/Shizu-Hub/Shizu-Bot-MD
+
+Número OFC del Bot: +972 55-724-6503
+Link: wa.me/+97255-724-6503
+
+AcidicNodes
+Mantén tus servidores activos 24/7 gratuitamente.
+https://billing.acidicnodes.ml/register?ref=nSzLjTPd
+
+Grupo de WhatsApp
+https://chat.whatsapp.com/LwPNmhUV8P76isIyFgEK8E
+
+Unete👆!!!
 
 ------------------------------------
 
@@ -18,7 +35,8 @@ let text = `
 > cd WaBot-MD
 > npm install
 > yarn
-> npm start`  
+> npm startç
+(Este bot puede tener fallos, porque esta desactualizado.)`  
 m.reply(text)   
 }
 handler.command = /^(instalarbot)/i
