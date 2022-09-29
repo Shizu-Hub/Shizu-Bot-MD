@@ -1,4 +1,5 @@
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
+let pp = './portada_download.jpg'
 let text = `
 Download Shizu-Bot
 
