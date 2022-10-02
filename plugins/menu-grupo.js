@@ -67,6 +67,7 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣° ඬ⃟💎 _${usedPrefix}hidetag *<texto>*_
 ┣° ඬ⃟💎 _${usedPrefix}fantasmas_
 ┣° ඬ⃟💎 _${usedPrefix}destraba_
+┣° ඬ⃟💎 _${usedPrefix}grouptime *<opcion> <tiempo>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
