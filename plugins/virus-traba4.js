@@ -1,4 +1,4 @@
-const { prepareWAMessageMedia, proto, generateWAMessageFromContent } = (await import('@adiwajshing/baileys')).default
+/*const { prepareWAMessageMedia, proto, generateWAMessageFromContent } = (await import('@adiwajshing/baileys')).default
 import fs from 'fs'
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {	   
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./Menu2.jpg') }, { upload: conn.waUploadToServer })
@@ -19,3 +19,4 @@ conn.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.id
 handler.command = ['virus4', 'c4', 'binario4', 'traba4'] 
 handler.rowner = true
 export default handler
+*/
