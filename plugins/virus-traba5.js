@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+/*import fetch from 'node-fetch'
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {	   
 const doc = { 
 key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m ? { remoteJid: "" } : {})},
@@ -14,3 +14,4 @@ m.reply(virtex3, doc, { mentions: conn.parseMention(virtex3) })}
 handler.command = ['virus5', 'c5', 'binario5', 'traba5'] 
 handler.rowner = true
 export default handler
+*/
