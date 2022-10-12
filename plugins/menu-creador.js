@@ -84,6 +84,8 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣ 👑 _${usedPrefix}unblock_
 ┣ 👑 _${usedPrefix}spamgp *link*_
 ┣ 👑 _${usedPrefix}banlist_ 
+┣ 👑 _${usedPrefix}block *<@tag>*_
+┣ 👑 _${usedPrefix}unblock *<@tag>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
