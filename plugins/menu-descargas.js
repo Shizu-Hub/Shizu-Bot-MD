@@ -81,6 +81,11 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣° ඬ⃟📥 _${usedPrefix}igstalk *<nombre de usuario>*_
 ┣° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
 ┣° ඬ⃟📥 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
+┣° ඬ⃟📥 _${usedPrefix}fb *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}fb2 *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}fb3 *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}fb4 *<enlace / link / url>*_
+┣° ඬ⃟📥 _${usedPrefix}fb5 *<enlace / link / url>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
