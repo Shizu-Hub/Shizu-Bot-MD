@@ -13,9 +13,9 @@ let buttons = [
 { buttonId: '#donar', buttonText: { displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮' }, type: 1 },
 { buttonId: '#owner', buttonText: { displayText: '🌹 𝙾𝚆𝙽𝙴𝚁 🌹' }, type: 1 }]
 //{ buttonId: '#infobot', buttonText: { displayText: '🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾' }, type: 1 }]
-handler.help = ['spamwa <number>']
+handler.help = ['solicitar <number>']
 handler.tags = ['General']
-handler.command = /^spam(wa)?$/i
+handler.command = /^solicitar$/i
 handler.group = false
 handler.premium = false
 handler.private = true
