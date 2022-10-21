@@ -73,6 +73,7 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣ 🛠️ _${usedPrefix}covid *<pais>*_
 ┣ 🛠️ _${usedPrefix}horario_
 ┣ 🛠️ _${usedPrefix}clima *<país>* / *<ciudad>*
+┣ 🛠️ _${usedPrefix}tamaño *<cantidad> <responde a imagen / video>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
