@@ -1,10 +1,10 @@
 let handler  = async (m, { conn }) => {
-conn.reply(m.chat,`*┌────「 PRIME VIDEO 」─*\n*“${pickRandom(global.star)}”*\n*└────「 CUENTA GENERADA 」─*`, m)
+conn.reply(m.chat,`*┌────「 PRIME VIDEO 」─*\n*“${pickRandom(global.primevideo)}”*\n*└────「 CUENTA GENERADA 」─*`, m)
 }
-handler.help = ['star']
+handler.help = ['primevideo']
 handler.tags = ['fun']
 handler.limit = 2
-handler.command = /^star/i
+handler.command = /^prime/i
 export default handler
 
 function pickRandom(list) {
