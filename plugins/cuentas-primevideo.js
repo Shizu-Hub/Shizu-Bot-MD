@@ -11,7 +11,7 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-global.star = [
+global.primevideo = [
   "Registrate en esta web https://dash.boxmineworld.com/register?ref=xGjnynVf y reclama tu cuenta en wa.e/34623442554 oferta valida hasta el 22/10/22",
 
 ] 
