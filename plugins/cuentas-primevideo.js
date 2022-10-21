@@ -12,6 +12,6 @@ function pickRandom(list) {
 }
 
 global.star = [
-  "Correo: pruevau36@gmail.com Contraseña: registrate en esta web https://dash.boxmineworld.com/register?ref=xGjnynVf y reclama tu cuenta en wa.e/34623442554 oferta valida hasta el 22/10/22",
+  "Registrate en esta web https://dash.boxmineworld.com/register?ref=xGjnynVf y reclama tu cuenta en wa.e/34623442554 oferta valida hasta el 22/10/22",
 
 ] 
