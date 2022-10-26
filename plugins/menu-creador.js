@@ -89,6 +89,8 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣ 👑 _${usedPrefix}setprefix *<texto>*
 ┣ 👑 _${usedPrefix}resetprefix
 ┣ 👑 _${usedPrefix}autoadmin_
+┣ 👑 _${usedPrefix}setppbot *<responder a imagen>*_
+┣ 👑 _${usedPrefix}leavegc_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
