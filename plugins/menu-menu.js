@@ -16,6 +16,14 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
+let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosmic&q=world');
+	let CovidApi = await datcov.json();
+	var cotext = `┏「 DATOS - COVID19 」┓
+┃➲ Casos positivos : ${CovidApi.casos}
+┃✯ Recuperados : ${CovidApi.recuperados}
+┃❥ Tratados : ${CovidApi.activo}
+┃✞ Fallecidos : ${CovidApi.muertes}
+┗─━─━「 🌎 」━─━─┛\n\n`
 let str = `
 *ミ💖 𝙷𝙾𝙻𝙰 ✨${taguser}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚃𝙷𝙴 𝚂𝙷𝙸𝚉𝚄 - 𝙱𝙾𝚃 💖彡*
 
