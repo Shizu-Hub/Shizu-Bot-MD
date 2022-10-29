@@ -23,7 +23,7 @@ let totalreg = Object.keys(global.db.data.users).length
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
 
 let pp = './Menu2.jpg'
-wm = global.wm
+wm = cotext
 let { exp, limit, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
