@@ -78,6 +78,7 @@ text: `*╭─────────────────────❊*
 *│* *│* *Apoyame registrandote en esta web*
 *│* *│* *https://tinyurl.com/2jzuzsef*
 *│* *│* *Mis redes: atom.bio/shizu-hub*
+*│* *│* ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
 *│* *╰────────────────❊*
 *│*    *㊏───ɪɴғᴏ───㊏*
 *│* *╭─────────────────❊*
