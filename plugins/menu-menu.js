@@ -487,6 +487,19 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟☠ _${usedPrefix}crash5_
 ° ඬ⃟☠ _${usedPrefix}crash6_
 ° ඬ⃟☠ _${usedPrefix}crash7_
+
+    /**try {
+    let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosmic&q=world');
+	let CovidApi = await datcov.json();
+	var cotext = `┏「 DATOS - COVID19 」┓
+┃➲ Casos positivos : 
+┃✯ Recuperados : 
+┃❥ Tratados : 
+┃✞ Fallecidos : 
+┗─━─━「 🌎 」━─━─┛\n\n`
+    } catch (e) {
+    var cotext = ''
+    }**/
 `.trim()
 let buttons = [
 { buttonId: '#redes', buttonText: { displayText: '⍟𝗥𝗘𝗗𝗘𝗦⍟' }, type: 1 },
