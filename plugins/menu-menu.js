@@ -504,7 +504,7 @@ let buttonMessage = {
 image: imagen1,
 caption: str.trim(),
 mentions: [m.sender],
-footer: `*${wm}*`,
+footer: `*${cotext}*`,
 buttons: buttons,
 headerType: 4,
 contextInfo: {
