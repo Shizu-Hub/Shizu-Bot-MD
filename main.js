@@ -72,10 +72,17 @@ const connectionOptions = {
 printQRInTerminal: true,
 auth: state,
 logger: P({ level: 'silent'}),
-browser: ['Shizu-Bot','Safari','1.0.0']
+browser: ['TheMystic-Bot','Safari','1.0.0']
 }
 
-global.conn = makeWASocket(connectionOptions)
+//makeWASocket(connectionOptions)
+/* Solucion mensajes en espera */
+global.conn = makeWASocket({ ...connectionOptions, ...opts.connectionOptions,
+getMessage: async (key) => (
+opts.store.loadMessage(/** @type {string} */(key.remoteJid), key.id) ||
+opts.store.loadMessage(/** @type {string} */(key.id)) || {}
+).message || { conversation: 'Please send messages again' },
+})
 conn.isInit = false
 
 if (!opts['test']) {
@@ -83,15 +90,19 @@ if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
 if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', "jadibts"], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
 }, 30 * 1000)}
+
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
 
 function clearTmp() {
 const tmp = [tmpdir(), join(__dirname, './tmp')]
 const filename = []
 tmp.forEach(dirname => readdirSync(dirname).forEach(file => filename.push(join(dirname, file))))
+//const ignoreDir = (filePath) => filePath.includes('creds.js');
 readdirSync("./jadibts").forEach(file => {
-    console.log(file)
     rmSync("./jadibts/" + file, { recursive: true, force: true })})
+//const ignoreDir2 = (filePath) => filePath.includes('creds.js');    
+//readdirSync("./MysticSession", null, null, ignoreDir2).forEach(file => {
+//    rmSync("./MysticSession/" + file, { recursive: true, force: true })})    
 return filename.map(file => {
 const stats = statSync(file)
 if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
