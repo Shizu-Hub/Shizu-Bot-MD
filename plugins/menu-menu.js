@@ -22,6 +22,7 @@ let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosm
 ┃✯ Recuperados : ${CovidApi.recuperados}
 ┃❥ Tratados : ${CovidApi.activo}
 ┃✞ Fallecidos : ${CovidApi.muertes}
+┃⍟𝗦𝗵𝗶𝘇𝘂 » 𝗕𝗼𝘁⍟ V5.2
 ┗─━─━「 🌎 」━─━─┛\n\n`
 let str = `
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
