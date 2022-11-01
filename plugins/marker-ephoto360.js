@@ -1,5 +1,3 @@
-lines (32 sloc)  2.25 KB
-
 /*
 - Obten mas efectos en https://violetics.pw/api/ephoto360
 - Usa la apikey "beta"
