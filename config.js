@@ -78,22 +78,12 @@ global.APIKeys = { // APIKey Here
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
-
-global.generateWAMessageFromContent = generateWAMessageFromContent
+global.imagen4 = fs.readFileSync('./Menu.png')
 
 global.mods = [] 
 
-global.multiplier = 9999 
-global.rpg = {
-emoticon(string) {
-string = string.toLowerCase()
-let emot = {
-level: '🏆',
-limit: '💎',
-exp: '🕹️'}
-let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
-if (!results.length) return ''
-else return emot[results[0][0]]}}
+global.multiplier = 99
+
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
 unwatchFile(file)
