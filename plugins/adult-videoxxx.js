@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +𝟷𝟾 𝙴𝚂𝚃𝙰𝙽 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾𝚂 𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾, 𝚂𝙸 𝙴𝚂 𝙰𝙳𝙼𝙸𝙽 𝚈 𝙳𝙴𝚂𝙴𝙰 𝙰𝙲𝚃𝙸𝚅𝙰𝚁𝙻𝙾𝚂 𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #enable modohorny*'   
-let res = pickRandom(asupan)
-conn.sendButton(m.chat, `*ᴅɪsғʀᴜᴛᴀ ᴅᴇʟ ᴠɪᴅᴇᴏ 🥵*`, wm, res, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
+let res = await pickRandom(asupan)
+await conn.sendButton(m.chat, `*ᴅɪsғʀᴜᴛᴀ ᴅᴇʟ ᴠɪᴅᴇᴏ 🥵*`, wm, res, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
 handler.help = ['videoxxx']
 handler.tags = ['random']
 handler.command = /^videoxxx|vídeoxxx$/i
@@ -46,11 +46,10 @@ const asupan = [
 "https://d.top4top.io/m_2235ut91p3.mp4",
 "https://e.top4top.io/m_22352ktoj4.mp4",
 "https://f.top4top.io/m_2235hcqj65.mp4",
-"https://g.top4top.io/m_2235j81s76.mp4", 
-"https://d.top4top.io/m_2235993nu1.mp4",
-"https://c.top4top.io/m_22352lrsd1.mp4",
-"https://g.top4top.io/m_2235pi8791.mp4",
-"https://g.top4top.io/m_22428pnh01.mp4",
-"https://i.top4top.io/m_2242jpc3c1.mp4",
-"https://f.top4top.io/m_2235sxi5y1.mp4"
+"https://g.top4top.io/m_2235j81s76.mp4"
 ]
+
+/*
+"https://f.top4top.io/m_2235sxi5y1.mp4"
+"https://d.top4top.io/m_2235993nu1.mp4"
+*/
