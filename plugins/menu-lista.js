@@ -17,7 +17,7 @@ let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosm
 ┃✯ Recuperados : ${CovidApi.recuperados}
 ┃❥ Tratados : ${CovidApi.activo}
 ┃✞ Fallecidos : ${CovidApi.muertes}
-┃⍟𝗦𝗵𝗶𝘇𝘂 » 𝗕𝗼𝘁⍟ V5.2
+┃⍟𝗦𝗵𝗶𝘇𝘂 » 𝗕𝗼𝘁⍟ V5.3
 ┗─━─━「 🌎 」━─━─┛\n\n`
 let uptime = clockString(_uptime) 
 let totalreg = Object.keys(global.db.data.users).length
