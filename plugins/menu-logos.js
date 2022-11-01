@@ -50,14 +50,19 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗟𝗢𝗚𝗢𝗦/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ 🖍️ _${usedPrefix}mensajefalso *<nombre|mensaje>*_
+┣ 🖍️ _${usedPrefix}phmaker *<opcion> <imagen>*_
 ┣ 🖍️ _${usedPrefix}logos *<efecto> <texto>*_
-┣ 🖍️ _${usedPrefix}simpcard *<@tag>*_
-┣ 🖍️ _${usedPrefix}hornycard *<@tag>*_
-┣ 🖍️ _${usedPrefix}lolice *<@tag>*_
+┣ 🖍️ _${usedPrefix}logochristmas *<texto>*_
+┣ 🖍️ _${usedPrefix}logocorazon *<texto>*_
 ┣ 🖍️ _${usedPrefix}ytcomment *<texto>*_
+┣ 🖍️ _${usedPrefix}hornycard *<@tag>*_
+┣ 🖍️ _${usedPrefix}simpcard *<@tag>*_
+┣ 🖍️ _${usedPrefix}lolice *<@tag>*_
 ┣ 🖍️ _${usedPrefix}itssostupid_
 ┣ 🖍️ _${usedPrefix}pixelar_
 ┣ 🖍️ _${usedPrefix}blur_
+┗━━━━━━━━━━━━━┛
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
