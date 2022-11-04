@@ -1,4 +1,3 @@
-
 import cheerio from 'cheerio'
 import fs from 'fs'
 import fetch from 'node-fetch'
@@ -404,7 +403,7 @@ global.fgif = {
                         'seconds': '999999999', 
                         'gifPlayback': 'true', 
                         'caption': bottime,
-                        'jpegThumbnail': fs.readFileSync('./Menu.png')
+                        'jpegThumbnail': fs.readFileSync('./Menu2.jpg')
                                }
                               }
                              }
