@@ -3,7 +3,17 @@ import fs, { promises } from 'fs'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
 try {
 let vn = './media/menu.mp3'
-let pp = './Menu2.jpg'
+import fs from 'fs'
+import fetch from 'node-fetch'
+import { xpRange } from '../lib/levelling.js'
+const { levelling } = '../lib/levelling.js'
+import PhoneNumber from 'awesome-phonenumber'
+import { promises } from 'fs'
+import { join } from 'path'
+let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
+try {
+let vn = './media/menu.mp3'
+let pp = imagen4
 let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
@@ -11,10 +21,13 @@ let week = d.toLocaleDateString(locale, { weekday: 'long' })
 let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
+let user = global.db.data.users[m.sender]
+let { money, joincount } = global.db.data.users[m.sender]
+let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { min, xp, max } = xpRange(level, global.multiplier)
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
 let more = String.fromCharCode(8206)
-let readMore = more.repeat(850)   
-let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
+let readMore = more.repeat(850) 
 let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosmic&q=world');
 	let CovidApi = await datcov.json();
 	var cotext = `┏「 DATOS - COVID19 」┓
@@ -24,6 +37,7 @@ let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosm
 ┃✞ Fallecidos : ${CovidApi.muertes}
 ┃⍟𝗦𝗵𝗶𝘇𝘂 » 𝗕𝗼𝘁⍟ V5.3
 ┗─━─━「 🌎 」━─━─┛\n\n`
+let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║    ◉— *𝚂𝙷𝙸𝚉𝚄 - 𝙱𝙾𝚃* —◉
@@ -38,13 +52,25 @@ let str = `
 ║➤ *Tiempo activo:* ${uptime}
 ║➤ *Usuarios:* ${rtotalreg}
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
+..................
+┏━━━━━━━━━━━━━━━━┓
+┃ *< 𝕀ℕ𝔽𝕆 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆 />*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ *🎖️ Nivel:* ${level}
+┣ *🧰 Experiencia:* ${exp}
+┣ *⚓ Rango:* ${role}
+┣ *💎 Diamantes:* ${limit}
+┣ *👾 MysticCoins:* ${money}
+┣ *🪙 Tokens:* ${joincount}
+┣ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : '❌'}
+┗━━━━━━━━━━━━━━━━┛
 ${readMore}
-┏━━━━━━━━━━━━━┓
+┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝔹𝕆𝕋 𝕆𝔽ℂ 𝕆 𝕊𝕌𝔹 𝔹𝕆𝕋 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
+┗━━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕀ℕ𝔽𝕆 𝔹𝕆𝕋 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟ 💟 _${usedPrefix}grupos_
@@ -56,19 +82,19 @@ ${readMore}
 ┣ ඬ⃟ 💟 _${usedPrefix}owner_
 ┣ ඬ⃟ 💟 _${usedPrefix}script_
 ┣ ඬ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
+┗━━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟ 👽 _${usedPrefix}join *<enlace / link / url>*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
+┗━━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕊𝔼ℝ𝔹𝕆𝕋 - 𝕁𝔸𝔻𝕀𝔹𝕆𝕋 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟ 🤖 _${usedPrefix}serbot_
 ┣ ඬ⃟ 🤖 _${usedPrefix}stop_
 ┣ ඬ⃟ 🤖 _${usedPrefix}bots_
-┗━━━━━━━━━━━━━┛  
+┗━━━━━━━━━━━━━━━━┛  
 ┏━━━━━━━━━━━━━┓
 ┃ *< 𝕁𝕌𝔼𝔾𝕆𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -144,6 +170,7 @@ ${readMore}
 ┣ ඬ⃟ 📥 _${usedPrefix}tiktok *<enlace / link / url>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}xvideosdl *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}twitter *<enlace / link / url>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}fb *<enlace / link / url>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}fb2 *<enlace / link / url>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}fb3 *<enlace / link / url>*_
@@ -153,6 +180,7 @@ ${readMore}
 ┣ ඬ⃟ 📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}stickerpack *<enlace / link / url>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}play *<texto>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}play.1 *<texto>*_
 ┣ ඬ⃟ 📥 _${usedPrefix}play.2 *<texto>*_
@@ -214,14 +242,15 @@ ${readMore}
 ┏━━━━━━━━━━━━━┓
 ┃ *< 𝔼𝔽𝔼ℂ𝕋𝕆𝕊 𝕐 𝕃𝕆𝔾𝕆𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟ 🖍️ _${usedPrefix}logos *<efecto> <texto>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}logocorazon *<texto>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}logochristmas *<texto>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}simpcard *<@tag>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}hornycard *<@tag>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}lolice *<@tag>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}ytcomment *<texto>*_
+┣ ඬ⃟ 🖍️ _${usedPrefix}mensajefalso *<nombre|mensaje>*_
 ┣ ඬ⃟ 🖍️ _${usedPrefix}phmaker *<opcion> <imagen>*_
+┣ ඬ⃟ 🖍️ _${usedPrefix}logos *<efecto> <texto>*_
+┣ ඬ⃟ 🖍️ _${usedPrefix}logochristmas *<texto>*_
+┣ ඬ⃟ 🖍️ _${usedPrefix}logocorazon *<texto>*_
+┣ ඬ⃟ 🖍️ _${usedPrefix}ytcomment *<texto>*_
+┣ ඬ⃟ 🖍️ _${usedPrefix}hornycard *<@tag>*_
+┣ ඬ⃟ 🖍️ _${usedPrefix}simpcard *<@tag>*_
+┣ ඬ⃟ 🖍️ _${usedPrefix}lolice *<@tag>*_
 ┣ ඬ⃟ 🖍️ _${usedPrefix}itssostupid_
 ┣ ඬ⃟ 🖍️ _${usedPrefix}pixelar_
 ┣ ඬ⃟ 🖍️ _${usedPrefix}blur_
@@ -310,6 +339,7 @@ ${readMore}
 ┣ ඬ⃟ 🔞 _${usedPrefix}pack2_
 ┣ ඬ⃟ 🔞 _${usedPrefix}pack3_
 ┣ ඬ⃟ 🔞 _${usedPrefix}videoxxx_
+┣ ඬ⃟ 🔞 _${usedPrefix}videolesbixxx_
 ┣ ඬ⃟ 🔞 _${usedPrefix}tiktokxxx_
 ┣ ඬ⃟ 🔞 _${usedPrefix}tetas_
 ┣ ඬ⃟ 🔞 _${usedPrefix}booty_
@@ -365,6 +395,7 @@ ${readMore}
 ┃ *< 𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟ 🔍 _${usedPrefix}stickersearch *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}stickersearch2 *<texto>*_
 ┣ ඬ⃟ 🔍 _${usedPrefix}xnxxsearch *<texto>*_
 ┣ ඬ⃟ 🔍 _${usedPrefix}animeinfo *<texto>*_
 ┣ ඬ⃟ 🔍 _${usedPrefix}google *<texto>*_
