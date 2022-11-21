@@ -1,7 +1,7 @@
 {
     "name": "Shizu-Bot",
     "version": "1.0.0",
-    "description": "Sigueme en instagram: @shizu.bot",
+    "description": "Follow me on instagram: @itx_ahmad.ali",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/Shizu-Hub/Shizu-Bot-MD",
+    "homepage": "https://github.com/xIKRATOSx/Shizu-Bot-MD",
     "author": {
-        "name": "Shizu-Hub"
+        "name": "xIKRATOSx"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Shizu-Hub/Shizu-Bot-MD.git"
+        "url": "git+https://github.com/xIKRATOSx/Ikratos-Bot-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/Shizu-Hub/Shizu-Bot-MD/issues"
+        "url": "https://github.com/xIKRATOSx/Ikratos-Bot-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
