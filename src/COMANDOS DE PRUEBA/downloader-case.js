@@ -40,48 +40,48 @@ m.reply('*[❗𝐈𝐍𝐅𝐎❗] error, please try again*\n\n*- check that the
 break     
 
 case 'gitclone':
-if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙶𝙸𝚃𝙷𝚄𝙱, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} https://github.com/BrunoSobrino/TheMystic-Bot-MD*`
-if (!regex.test(args[0])) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙸𝙽𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!*'
+if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] ENTER A GITHUB LINK,EXAMPLE: ${usedPrefix + command} https://github.com/BrunoSobrino/TheMystic-Bot-MD*`
+if (!regex.test(args[0])) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙸𝙽𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃!*'
 try {
 let [_, user, repo] = args[0].match(regex) || []
 repo = repo.replace(/.git$/, '')
 let url = `https://api.github.com/repos/${user}/${repo}/zipball`
 let filename = (await fetch(url, { method: 'HEAD' })).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
-m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝙿𝙴𝚁𝙴 𝚄𝙽 𝙼𝙾𝙼𝙴𝙽𝚃𝙾 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾, 𝚂𝙸 𝙴𝚂𝚃𝙴 𝙽𝙾 𝙴𝚂 𝙴𝙽𝚅𝙸𝙰𝙳𝙾 𝙿𝚄𝙴𝙳𝙴 𝙳𝙴𝙱𝙴𝚁𝚂𝙴 𝙰 𝚀𝚄𝙴 𝙴𝙻 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸𝙾 𝙴𝚂 𝙼𝚄𝚈 𝙿𝙴𝚂𝙰𝙳𝙾*`)
+m.reply(`*[❗𝐈𝐍𝐅𝐎❗] WAIT A MOMENT WHILE I SEND YOUR FILE, IF IT IS NOT SENT IT MAY BE BECAUSE THE REPOSITORY IS VERY HEAVY*`)
 conn.sendFile(m.chat, url, filename, null, m)
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break  
 
 case 'instagram': case 'instagramdl': case 'ig': case 'igdl':
-if (!(args[0])) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link*`
+if (!(args[0])) throw `*[❗𝐈𝐍𝐅𝐎❗] ENTRE AN INSTAGRAM LINK,EXAMPLE: ${usedPrefix + command} https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link*`
 try {
 let results = (await instagramGetUrl(args[0])).url_list[0]
 let shortUrl = await (await fetch(`https://tinyurl.com/api-create.php?url=${results}`)).text()
 let txt = `🔗 *Url:* ${shortUrl}`.trim()
 await conn.sendFile(m.chat, results, 'error.mp4', txt, m)
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break                         
 
 case 'igstalk': 
-if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} luisitocomunica*`
+if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] PLEASE ENTER THE USERNAME OF USER OF INSTAGRAM, EXAMPLE: ${usedPrefix + command} itx_ahmad.ali*`
 try {
 const { username, name, description, followersH, followingH, postsH } = await instagramStalk(args[0])
 m.reply(`
 ${name} *(${username})*
 https://instagram.com/${username.replace(/^@/, '')}
-*${followersH}* 𝚂𝙴𝙶𝚄𝙸𝙳𝙾𝚁𝙴𝚂
-*${followingH}* 𝚂𝙴𝙶𝚄𝙸𝙳𝙾𝚂
-*${postsH}* 𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙲𝙸𝙾𝙽𝙴𝚂
+*${followersH}* FOLLOWERS
+*${followingH}* FOLLLOWING
+*${postsH}* POSTS
 *𝙱𝙸𝙾:* ${description}
 `.trim())
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break                          
 
 case 'igstory': case 'ighistoria': 
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼*\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} luisitocomunica*`        
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] ENTRE THE NAME OF AN INSTAGRAM USER*\n\n*EXAMPLE:*\n*${usedPrefix + command} itx_ahmad.ali*`        
 try {
 hx.igstory(text).then(async (result) => {
 for (let i of result.medias) {
@@ -90,37 +90,37 @@ conn.sendFile(m.chat, i.url, 'igstory.mp4', null, m)
 } else {     
 conn.sendFile(m.chat, i.url, '', '', m)}}})
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break    
 
 case 'gimage': case 'image': case 'imagen': 
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command} Minecraft*`
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] EXAMPLE USING THE COMMAND ${usedPrefix + command} Minecraft*`
 try {
 const res = await googleImage(text)
 let image = res.getRandom()
 let link = image
-conn.sendHydrated(m.chat, `🔎 *𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾 𝙳𝙴:* ${text}
-🌎 *𝙱𝚄𝙲𝙰𝙳𝙾𝚁:* Google
+conn.sendHydrated(m.chat, `🔎 *RESULT OF:* ${text}
+🌎 *SEEKER:* Google
 `, author, link, link, '🔗 𝚄𝚁𝙻', null, null, [
-['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/imagen ${text}`]
+['🔄 NEXT 🔄', `/imagen ${text}`]
 ], m)
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break   
 
 case 'mediafire': case 'mediafiredl': case 'dlmediafire': 
-if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝚅𝙰𝙻𝙸𝙳𝙾 𝙳𝙴 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} https://www.mediafire.com/file/pbabuzyc7i8ord5/TheMystic-Bot-MD-master_%25285%2529.zip/file*`
+if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] ENTRE A VALID MEDIAFIRE LINK, EXAMPLE: ${usedPrefix + command} https://www.mediafire.com/file/pbabuzyc7i8ord5/TheMystic-Bot-MD-master_%25285%2529.zip/file*`
 try {
 let res = await mediafiredl(args[0])
 let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
 let caption = `
-*𝙽𝙾𝙼𝙱𝚁𝙴:* ${filename}
-*𝙿𝙴𝚂𝙾:* ${filesizeH}
-*𝚃𝙸𝙿𝙾:* ${ext}
-*⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
-*_- 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙼𝙰𝚈𝙾𝚁𝙴𝚂 𝙰 𝟷00 𝙼𝙱 𝙿𝚄𝙴𝙳𝙴 𝚀𝚄𝙴 𝙽𝙾 𝚂𝙴𝙰𝙽 𝙴𝙽𝚅𝙸𝙰𝙳𝙾𝚂_* 
+*NAME:* ${filename}
+*SIZE:* ${filesizeH}
+*TYPE:* ${ext}
+*⏳ WAIT UNTIL I SEND YOUR FILE. . . .* 
+*_- FILES LARGER THAN 100 MB MAY NOT B SENT_* 
 `.trim()
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: caption, contextInfo: { externalAdReply: {title: '𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙳𝙴 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴', body: 'ʙʏ ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ', thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD' }, mentionedJid: [m.sender]}}}, { quoted: m })
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: caption, contextInfo: { externalAdReply: {title: 'DOWNLOADED FROM 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴', body: 'ᴡʰᵃᵗˢᵃᵖᵖ 𝔹OT 🇧 🇾  𝕬𝖍𝖒𝖆𝖉 𝕬𝖑𝖎', thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD' }, mentionedJid: [m.sender]}}}, { quoted: m })
 } catch {
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] error, please try again*\n\n*- check that the link is similar to:*\n*◉ https://www.mediafire.com/file/pbabuzyc7i8ord5/TheMystic-Bot-MD-master_%25285%2529.zip/file*')}
 break
@@ -155,7 +155,7 @@ conn.sendHydrated(m.chat, `
 ['𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒', `${usedPrefix}playlist ${text}`]  
 ], m)
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break 
 
 case 'play3': case 'playdoc':         
@@ -177,7 +177,7 @@ conn.sendHydrated(m.chat, `
 ['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv.2 ${url}`]
 ], m)
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break      
 
 case 'play.1': case 'play.2':         
@@ -193,7 +193,7 @@ conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴠɪ�
 let json = await res.json()
 conn.sendFile(m.chat, json.result.video, 'error.mp4', `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, m)}
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break  
 
 case 'playlist': case 'playlist2':         
@@ -230,7 +230,7 @@ listSerch3.push({title: i.title, description: `Autor: ${i.author.name} / ${i.tim
 listSerch4.push({title: i.title, description: `Autor: ${i.author.name} / ${i.timestamp}`, rowId: `${usedPrefix}ytmp4doc ${i.url}`})}
 conn.sendMessage(m.chat, listMessage, { quoted: m })
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾 𝙲𝙾𝙽 𝙾𝚃𝚁𝙾 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN 𝙲𝙾𝙽 𝙾𝚃𝚁𝙾 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*')}
 break      
 
 case 'tiktokfoto': case 'pptiktok': 
@@ -239,7 +239,7 @@ try {
 let res = `https://api.lolhuman.xyz/api/pptiktok/${text}?apikey=${lolkeysapi}`
 conn.sendFile(m.chat, res, 'error.jpg', `*[ ✔ ] 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴 𝙿𝙴𝚁𝙵𝙸𝙻 𝙳𝙴 ${text}*`, m, false)
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break  
 
 case 'ringtone':
@@ -249,7 +249,7 @@ let vn = await fetch(`https://fatiharridho.herokuapp.com/api/search/ringtone?que
 let x = await vn.json()
 conn.sendMessage(m.chat, { audio: { url: x.result[0].audio }, mimetype: 'audio/mp4' }, {quoted: m})
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break        
 
 case 'soundcloud': case 'cover':
@@ -291,7 +291,7 @@ for (let data of (json.result || json)) {
 const stikers = await sticker(false, data, global.packname, global.author)
 conn.sendFile(m.chat, stikers, 'sticker.webp', '', m, { asSticker: true })}
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break  
 
 case 'tt': case 'tiktok': case 'ttdl': case 'tiktokdl': case 'ttnowm': case 'tiktoknowm': case 'tiktokaudio': case 'tiktokwm':
@@ -342,7 +342,7 @@ const res = await (/2/.test(command) ? wallpaperv2 : wallpaper)(text)
 const img = res[Math.floor(Math.random() * res.length)]
 conn.sendFile(m.chat, img, 'error.jpg', `*𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾 𝙳𝙴 ${text}*`, m)
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break  
 
 case 'ytmp3doc': case 'ytadoc': case 'ytmp3.2': case 'yta.2':
