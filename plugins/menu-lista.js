@@ -17,7 +17,7 @@ let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosm
 ┃✯ Recuperados : ${CovidApi.recuperados}
 ┃❥ Tratados : ${CovidApi.activo}
 ┃✞ Fallecidos : ${CovidApi.muertes}
-┃⍟𝗦𝗵𝗶𝘇𝘂 » 𝗕𝗼𝘁⍟ V5.3
+┃⍟𝗨𝗺𝗮𝗿 » 𝗕𝗼𝘁⍟ V5.3
 ┗─━─━「 🌎 」━─━─┛\n\n`
 let uptime = clockString(_uptime) 
 let totalreg = Object.keys(global.db.data.users).length
@@ -82,12 +82,12 @@ let name = await conn.getName(m.sender)
 const listMessage = {
 text: `*╭─────────────────────❊*
 *│* *╭────────────────❊*
-*│* *│* *Bᴏᴛ Nᴀᴍᴇ :  Shizu - Bot*
-*│* *│* *Creador del Bot: 𝗦𝗵𝗶𝘇𝘂* 
-*│* *│* *N° del creador:* wa.me/34623442554*
+*│* *│* *Bᴏᴛ Nᴀᴍᴇ :  Umar - Bot*
+*│* *│* *Creador del Bot: 𝗨𝗺𝗮𝗿* 
+*│* *│* *N° del creador:* wa.me/18089999899*
 *│* *│* *Apoyame registrandote en esta web*
-*│* *│* *https://tinyurl.com/2jzuzsef*
-*│* *│* *Mis redes: atom.bio/shizu-hub*
+*│* *│* *https://www.youtube.com/c/UMARMODS*
+*│* *│* *Mis redes: github.com/umar404*
 *│* *│* ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
 *│* *╰────────────────❊*
 *│*    *㊏───ɪɴғᴏ───㊏*
