@@ -30,13 +30,13 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
     
         try {
             if (! text) {
-                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getcode*. La manera correcta de usarla es *${usedPrefix}getcode + <ruta del archivo>*! Ejemplo: *${usedPrefix}getcode /plugins/code-getcode.js*.\n\n---------| *${PLUGIN_VERSION}* ( ** ) |--------\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! THIS IS NOT THE CORRECT WAY TO USE *${usedPrefix}getcode*. THE CORRECT WAY TO USE IT IS *${usedPrefix}getcode + <ruta del archivo>*! EXAMPLE: *${usedPrefix}getcode /plugins/code-getcode.js*.\n\n---------| *${PLUGIN_VERSION}* ( ** ) |--------\n\n╰══════⊂(^(工)^)⊃══════╯`)
             } else {
                 conn.sendFile(m.chat, `.${args[0]}`, null, { quoted: m })
-                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[✅] Aqui esta el archivo en la ruta ' *${args[0]}* '!\n\nAlgun error? Reportalo abriendo una issue en GitHub!\n\n---------| *${PLUGIN_VERSION}* |--------\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[✅] HERE IS THE FILE AT PATH ' *${args[0]}* '!\n\nANY ERRORS? Report it by opening an issue on GitHub!\n\n---------| *${PLUGIN_VERSION}* |--------\n\n╰══════⊂(^(工)^)⊃══════╯`)
             }
         } catch(error) {
-            message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Ha ocurrido un error "${error}". Por favor, abra una issue en GitHub para reportar el error.\n\n---------| *${PLUGIN_VERSION}* |--------\n\n╰══════⊂(^(工)^)⊃══════╯`)
+            message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] An error has occurred "${error}". Please open an issue on GitHub to report the bug..\n\n---------| *${PLUGIN_VERSION}* |--------\n\n╰══════⊂(^(工)^)⊃══════╯`)
         }
 }
 
