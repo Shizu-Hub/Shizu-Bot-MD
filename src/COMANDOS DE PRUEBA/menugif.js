@@ -16,9 +16,9 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = conn.getName(m.sender)
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 ✨${taguser}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚂𝚑𝚒𝚣𝚞 - 𝙱𝚘𝚝 💖彡*
-*📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
-*📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
+*ミ💖 ʜᴇʟʟᴏ ✨${taguser}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚂𝚑𝚒𝚣𝚞 - 𝙱𝚘𝚝 💖彡*
+*📅 ᴍᴏɴᴛʜ: ${week}, ${date}*
+*📈 ᴛIᴍᴇ ᴀᴄᴛIᴠᴇ: ${uptime}*
 *📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}*
 ${readMore}
 *<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝔻𝔼𝕃 𝔹𝕆𝕋/>*
@@ -452,8 +452,8 @@ var vid = vi[Math.floor(Math.random() * (vi.length))]
 
 //templateButtons
 let templateButtons = [ 
-{index: 1, urlButton: {displayText: 'GITHUB', url: 'https://github.com/Shizu-Hub/Shizu-Bot-MD'}},
-{index: 2, urlButton: {displayText: 'PAYPAL', url: 'https://www.paypal.com/paypalme/NeKosmicOFC'}},
+{index: 1, urlButton: {displayText: 'GITHUB', url: 'https://github.com/umar404/Ud-Md-V1'}},
+{index: 2, urlButton: {displayText: 'YOUTUBE', url: 'httl://www.youtube.com/c/UMARMODS'}},
 {index: 3, quickReplyButton: {displayText: 'OWNER', id: '#owner'}},
 {index: 4, quickReplyButton: {displayText: 'INFOBOT', id: '#infobot'}},
 {index: 5, quickReplyButton: {displayText: 'DONAR', id: '#donar'}}
