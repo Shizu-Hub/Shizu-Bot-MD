@@ -72,7 +72,7 @@ const connectionOptions = {
 printQRInTerminal: true,
 auth: state,
 logger: P({ level: 'silent'}),
-browser: ['Shizu-Bot','Safari','1.0.0']
+browser: ['Umar-Bot','Safari','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -99,15 +99,7 @@ const tmp = [tmpdir(), join(__dirname, './tmp')]
 const filename = []
 tmp.forEach(dirname => readdirSync(dirname).forEach(file => filename.push(join(dirname, file))))
    
-     /* Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        Mas no me arrepiento de haberme reido
-        Por que la grasa es un sentimiento
-        Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        que me arrepiento de ser un grasoso
-        Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            */
+     /* Y That was the best mom in the world Although I didn't doubt for a second But I don't regret having laughed Because fat is a feeling And that was the best mom in the world Although I didn't doubt for a second that I regret being a man greasy Because greasy is a feeling - The waza 👻👻👻👻 (Aiden)            */
    
 /*readdirSync("./jadibts").forEach(file => {
 const btprs = function (folder) {
