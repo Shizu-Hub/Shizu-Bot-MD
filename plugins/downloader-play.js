@@ -10,14 +10,14 @@ const url = 'https://www.youtube.com/watch?v=' + videoId
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]
 const buttons = [
-{ buttonId: `#ytmp3 ${url}`, buttonText: { displayText: '🎵 𝐀𝐔𝐃𝐈𝐎 🎵' }, type: 1 },
-{ buttonId: `#ytmp4 ${url}`, buttonText: { displayText: '🎥 𝐕𝐈𝐃𝐄𝐎 🎥' }, type: 1 },
-{ buttonId: `#playlist ${text}`, buttonText: { displayText: '📋 𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 📋' }, type: 1 }, ]    
-let texto1 = `*◉—⌈🔊 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐏𝐋𝐀𝐘 🔊⌋—◉*\n
-❏ 📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-❏ 📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
-❏ ⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
-❏ 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
+{ buttonId: `#ytmp3 ${url}`, buttonText: { displayText: '🤤 𝐀𝐔𝐃𝐈𝐎 🤤' }, type: 1 },
+{ buttonId: `#ytmp4 ${url}`, buttonText: { displayText: '👀 𝐕𝐈𝐃𝐄𝐎 👀' }, type: 1 },
+{ buttonId: `#playlist ${text}`, buttonText: { displayText: '🔥 𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 🔥' }, type: 1 }, ]    
+let texto1 = `*◉—⌈🔥 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐏𝐋𝐀𝐘 🇵🇰⌋—◉*\n
+❏ 📌 *𝚃𝙸𝚃𝙻𝙴:* ${title}
+❏ 📆 *𝙿𝚄𝙱𝙻𝙸𝙲:* ${publishedTime}
+❏ ⌚ *𝙳𝚄𝚁𝙰𝙸𝙾𝙽:* ${durationH}
+❏ 👀 *𝚅𝙸𝙴𝚆𝚂:* ${viewH}
 ❏ 📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}`.trim()
 let buttonMessage = {
 "document": { url: "https://wa.me/34623442554" }, 
