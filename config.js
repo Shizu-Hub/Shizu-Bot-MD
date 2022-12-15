@@ -8,16 +8,16 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['18089999899', '👑 Umar- Creador 👑', true],
-  ['18089999899']
+  ['18089999899', '👑🇵🇰 Dark Devil Umar- Creator 🇵🇰👑', true],
+  ['19294515557']
 ] 
-global.suittag = ['18089999899'] 
-global.prems = ['18089999899'] 
+global.suittag = ['19294515557'] 
+global.prems = ['19294515557'] 
 
 global.packname = '(≧▽≦)'
-global.author = '⍟𝙐𝙈𝘼𝙍 » 𝘿𝙀𝙑𝙄𝙇⍟'
-global.wm = '⍟𝙐𝙈𝘼𝙍 » 𝗕𝗼𝘁⍟ V5.3'
-global.igfg = '⍟𝙐𝙈𝘼𝙍 » 𝗕𝗼𝘁⍟'
+global.author = '𝙐𝙙-𝙈𝘿-𝗩1 𝘽𝙮 𝘿𝙖𝙧𝙠𝘿𝙚𝙫𝙞𝙡 © 2023 | ud-md-v1 WhatsApp Bot :'
+global.wm = '𝗨𝗗-𝗠𝗗-𝗩1 𝗕𝗬 𝗨𝗠𝗔𝗥'
+global.igfg = '𝗗𝗔𝗥𝗞 𝗗𝗘𝗩𝗜𝗟 » 𝗕𝗼𝘁⍟'
 global.wait = '*[❗] ʜᴇʏ, ʙᴏss ᴡᴀIᴛ  ᴀ ᴍᴏᴍᴇɴᴛ...*'
 
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
@@ -444,7 +444,7 @@ global.mysticbot = 'https://github.com/umar404'
 global.waitt = '*[❗] ʜᴇʏ, ʙᴏss ᴡᴀIᴛ  ᴀ ᴍᴏᴍᴇɴᴛ...*'
 global.waittt = '*[❗] ʜᴇʏ, ʙᴏss ᴡᴀIᴛ  ᴀ ᴍᴏᴍᴇɴᴛ...*'
 global.waitttt = '*[❗] ʜᴇʏ, ʙᴏss ᴡᴀIᴛ  ᴀ ᴍᴏᴍᴇɴᴛ...*'
-global.nomorown = '18089999899'
+global.nomorown = '19294515557'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '
