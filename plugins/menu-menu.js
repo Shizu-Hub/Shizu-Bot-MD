@@ -35,7 +35,7 @@ let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosm
 ┃✯ Recuperados : ${CovidApi.recuperados}
 ┃❥ Tratados : ${CovidApi.activo}
 ┃✞ Fallecidos : ${CovidApi.muertes}
-┃⍟𝗨𝗺𝗮𝗿 » 𝗕𝗼𝘁⍟ V5.3
+┃⍟𝗨𝗗-𝗠𝗗-𝗩1 ⍟ 
 ┗─━─━「 🌎 」━─━─┛\n\n`
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
@@ -46,7 +46,7 @@ let str = `
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *Owner:* Dark Devil
 ║➤ *Numero:* wa.me/18089999899 
-║➤ *Bot ofc:* wa.me/17867829021
+║➤ *Bot ofc:* wa.me/19294515628
 ║➤ *YT CH :* www.youtube.com/c/UMARMODS
 ║➤ *DATE:* ${date}
 ║➤ *TiME activo:* ${uptime}
@@ -599,7 +599,7 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝗨𝗠𝗔𝗥 » 𝗕𝗢𝗧 👑',
+title: '👑 𝗨𝗗-𝗠𝗗-𝗩1 𝗕𝗬 𝗨𝗠𝗔𝗥 👑',
 body: null,
 thumbnail: img,
 sourceUrl: `https://chat.whatsapp.com/Gz1gioZ6qBf9QPFyB6z1HE`
