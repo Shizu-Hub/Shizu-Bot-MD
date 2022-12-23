@@ -8,11 +8,11 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['19294515557', '👑🇵🇰 Dark Devil Umar- Creator 🇵🇰👑', true],
-  ['19294515557']
+  ['923165123719', '👑🇵🇰 Dark Devil Umar- Creator 🇵🇰👑', true],
+  ['923165123719']
 ] 
-global.suittag = ['19294515557'] 
-global.prems = ['19294515557'] 
+global.suittag = ['923165123719'] 
+global.prems = ['923165123719'] 
 
 global.packname = '(≧▽≦)'
 global.author = '𝙐𝙙-𝙈𝘿-𝗩1 𝘽𝙮 𝘿𝙖𝙧𝙠𝘿𝙚𝙫𝙞𝙡 © 2023 | ud-md-v1 WhatsApp Bot :'
