@@ -8,16 +8,16 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['923165123719', '👑🇵🇰 Dark Devil Umar- Creator 🇵🇰👑', true],
-  ['923165123719']
+  ['923111054738', '👑🇵🇰 ZEESHAN ANSARI ZEESHAN- Creator 🇵🇰👑', true],
+  ['923111054738']
 ] 
-global.suittag = ['923165123719'] 
-global.prems = ['923165123719'] 
+global.suittag = ['923111054738'] 
+global.prems = ['923111054738'] 
 
 global.packname = '(≧▽≦)'
-global.author = '𝙐𝙙-𝙈𝘿-𝗩1 𝘽𝙮 𝘿𝙖𝙧𝙠𝘿𝙚𝙫𝙞𝙡 © 2023 | ud-md-v1 WhatsApp Bot :'
-global.wm = '𝗨𝗗-𝗠𝗗-𝗩1 𝗕𝗬 𝗨𝗠𝗔𝗥'
-global.igfg = '𝗗𝗔𝗥𝗞 𝗗𝗘𝗩𝗜𝗟 » 𝗕𝗼𝘁⍟'
+global.author = '𝙐𝙙-𝙈𝘿-𝗩1 𝘽𝙮 ZEESHANANSARI © 2023 | ud-md-v1 WhatsApp Bot :'
+global.wm = '𝗨𝗗-𝗠𝗗-𝗩1 𝗕𝗬 ZEESHAN'
+global.igfg = 'ZEESHAN ANSARI » 𝗕𝗼𝘁⍟'
 global.wait = '*[❗] ʜᴇʏ, ʙᴏss ᴡᴀIᴛ  ᴀ ᴍᴏᴍᴇɴᴛ...*'
 
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
@@ -437,8 +437,8 @@ global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
-global.gt = '⍟𝙐𝙈𝘼𝙍 » 𝘿𝙀𝙑𝙄𝙇⍟'
-global.mysticbot = '⍟𝙐𝙈𝘼𝙍 » 𝘿𝙀𝙑𝙄𝙇⍟'
+global.gt = '⍟ZEESHAN » ANSARI⍟'
+global.mysticbot = '⍟ZEESHAN » ANSARI⍟'
 global.md = 'https://github.com/umar404'
 global.mysticbot = 'https://github.com/umar404'
 global.waitt = '*[❗] ʜᴇʏ, ʙᴏss ᴡᴀIᴛ  ᴀ ᴍᴏᴍᴇɴᴛ...*'
