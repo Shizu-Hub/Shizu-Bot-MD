@@ -35,7 +35,7 @@ let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosm
 ┃✯ Recuperados : ${CovidApi.recuperados}
 ┃❥ Tratados : ${CovidApi.activo}
 ┃✞ Fallecidos : ${CovidApi.muertes}
-┃⍟𝗦𝗵𝗶𝘇𝘂 » 𝗕𝗼𝘁⍟ V5.3
+┃⍟𝗨𝗗-𝗠𝗗-𝗩1 ⍟ 
 ┗─━─━「 🌎 」━─━─┛\n\n`
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
@@ -44,12 +44,12 @@ let str = `
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Owner:* Shizu-Hub
-║➤ *Numero:* wa.me/34623442554
-║➤ *Bot ofc:* wa.me/5492615130362
-║➤ *PayPal:* https://www.paypal.me/NeKosmicOFC
-║➤ *Fecha:* ${date}
-║➤ *Tiempo activo:* ${uptime}
+║➤ *Owner:* Dark Devil
+║➤ *Numero:* wa.me/18089999899 
+║➤ *Bot ofc:* wa.me/19294515628
+║➤ *YT CH :* www.youtube.com/c/UMARMODS
+║➤ *DATE:* ${date}
+║➤ *TiME activo:* ${uptime}
 ║➤ *Usuarios:* ${rtotalreg}
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ..................
@@ -599,10 +599,10 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝗦𝗛𝗜𝗭𝗨 » 𝗕𝗢𝗧 👑',
+title: '👑 𝗨𝗗-𝗠𝗗-𝗩1 𝗕𝗬 𝗨𝗠𝗔𝗥 👑',
 body: null,
 thumbnail: img,
-sourceUrl: `https://chat.whatsapp.com/LwPNmhUV8P76isIyFgEK8E`
+sourceUrl: `https://chat.whatsapp.com/Gz1gioZ6qBf9QPFyB6z1HE`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})

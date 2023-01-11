@@ -28,31 +28,21 @@ const sections = [
 {
 title: `𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗠𝗘𝗡𝗨𝗦`,
 rows: [
-      {title: "ꨄ︎𝗦𝗛𝗜𝗭𝗨-𝗛𝗨𝗕ꨄ︎", description: '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢 𝗗𝗘𝗟 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', rowId: `${usedPrefix}donar`},
-      {title: "✪𝗛𝗜𝗥𝗢✪ ", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}hiro`},
-      {title: "✪𝗗𝗔𝗠𝗜𝗔𝗡✪", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}damian`},
+      {title: "ꨄ︎𝗨𝗗-𝗠𝗗 𝗩1ꨄ︎", description: '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢 𝗗𝗘𝗟 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', rowId: `${usedPrefix}donar`},
+      {title: "✪𝗨𝗠𝗔𝗥✪ ", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}hiro`},
+      {title: "✪𝗗𝗔𝗥𝗞 𝗗𝗘𝗩𝗜𝗟✪", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}damian`},
       {title: "<𝘅𝗗>", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}xd`},
 ]}, ] 
 let name = await conn.getName(m.sender)
 const listMessage = {
-text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
+text: `*ミ💖 𝗛𝗘𝗟𝗟𝗢 𝗠𝗔𝗛 𝗟𝗢𝗩𝗘 _${name}_ 💖彡*
 ┏━━━━━━━━━━━━━┓
-┃ *𝗖𝗥𝗘𝗔𝗗𝗢𝗥𝗘𝗦
-┃     𝗗𝗘𝗟
+┃ *𝗖𝗥𝗘𝗔𝗧𝗢𝗥
+┃     𝗧𝗛𝗘
 ┃    𝗕 𝗢 𝗧*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ 𝗖𝗥𝗘𝗔𝗗𝗢𝗥
-┣ ꨄ︎𝗦𝗛𝗜𝗭𝗨-𝗛𝗨𝗕ꨄ︎
-┣ 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥 𝗡𝗢•1
-┣ ✪𝗛𝗜𝗥𝗢✪ 
-┣ 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥 𝗡𝗢•2
-┣ ✪𝗗𝗔𝗠𝗜𝗔𝗡✪
-┣ 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥 𝗡𝗢•3
-┣ ✪𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡✪
-┣ 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥 𝗡𝗢•4
-┣ <𝘅𝗗>
-┣ 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥 𝗡𝗢•5
-┣ ~₆₆₆⸸𝕭𝖔ͥ𝖘𝖘𝕯𝖊ͣ𝖛ͫ𝖎𝖑♔ꦿ꙰⸙
+┣ 𝗖𝗥𝗘𝗔𝗧𝗢𝗥
+┣ ꨄ︎𝗨𝗠𝗔𝗥 𝗥𝗘𝗛𝗠𝗔𝗡ꨄ︎⸙
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥𝗘𝗦", 
