@@ -26,21 +26,18 @@ year: 'numeric'
  
 const sections = [
 {
-title: `𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗠𝗘𝗡𝗨𝗦`,
+title: `I AM CREATED MY AYUSH`,
 rows: [
-      {title: "ꨄ︎𝗦𝗛𝗜𝗭𝗨-𝗛𝗨𝗕ꨄ︎", description: '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢 𝗗𝗘𝗟 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', rowId: `${usedPrefix}donar`},
-      {title: "✪𝗛𝗜𝗥𝗢✪ ", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}hiro`},
-      {title: "✪𝗗𝗔𝗠𝗜𝗔𝗡✪", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}damian`},
-      {title: "<𝘅𝗗>", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}xd`},
+      {title: "ꨄ︎Ayushꨄ︎", description: '𝗖𝗢𝗡𝗧𝗔𝗖𝗧 the Creator', rowId: `${usedPrefix}donate`},
 ]}, ] 
 let name = await conn.getName(m.sender)
 const listMessage = {
 text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
-Contacto: +52 1 33 2037 5541
+Contacto: +1 6 46 833 8933
 Gmail: ////
-PayPal: https://www.paypal.me/aLeX677171`, footer: `${wm}`, pp,
+PayPal: null`, footer: `${wm}`, pp,
 title: null,
-buttonText: "𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥𝗘𝗦", 
+buttonText: "List Of developer", 
 sections }
 
 conn.sendMessage(m.chat, listMessage)
