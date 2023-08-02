@@ -10,12 +10,12 @@ if (isBotAdmin && chat.antiArab) {
 		
 if (m.sender.startsWith('212' || '212')) {
 global.db.data.users[m.sender].banned = true
-m.reply(`✳️ Anti árabes está activo para evitar spam\n\nHasta la próxima`)
+m.reply(`✳️ Anti Arabs is active to prevent spam\n\nUntil next time`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
    
 if (m.sender.startsWith('265' || '265')) {
 global.db.data.users[m.sender].banned = true
-m.reply(`✳️ Anti árabes está activo para evitar spam\n\nHasta la próxima`)
+m.reply(`✳️ Anti Arabs is active to prevent spam\n\nUntil next time`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')} 
    
 }}

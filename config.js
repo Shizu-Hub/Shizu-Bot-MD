@@ -8,17 +8,17 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['34623442554', '👑 Shizu - Creador 👑', true],
-  ['34623442554']
+  ['16468338933', '👑 Ayush - Creator 👑', true],
+  ['16468338933']
 ] 
-global.suittag = ['34623442554'] 
-global.prems = ['34623442554'] 
+global.suittag = ['16468338933'] 
+global.prems = ['16468338933','19294515952'] 
 
-global.packname = '(≧▽≦)'
-global.author = '⍟𝗦𝗵𝗶𝘇𝘂 » 𝗛𝘂𝗯⍟'
-global.wm = '⍟𝗦𝗵𝗶𝘇𝘂 » 𝗕𝗼𝘁⍟ V5.3'
-global.igfg = '⍟𝗦𝗵𝗶𝘇𝘂 » 𝗕𝗼𝘁⍟'
-global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
+global.packname = 'Ayush'
+global.author = '⍟Ayush-MD⍟'
+global.wm = '⍟Ayush MD⍟ V5.3'
+global.igfg = '⍟Ayush » Op⍟'
+global.wait = '*[❗] Wait, Processing...*'
 
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -437,14 +437,14 @@ global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
-global.gt = '⍟𝗦𝗵𝗶𝘇𝘂 » 𝗛𝘂𝗯⍟'
-global.mysticbot = '⍟𝗦𝗵𝗶𝘇𝘂 » 𝗛𝘂𝗯⍟'
-global.md = 'https://github.com/Shizu-Hub/Shizu-Bot-MD'
-global.mysticbot = 'https://github.com/Shizu-Hub/Shizu-Bot-MD'
-global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.nomorown = '34623442554'
+global.gt = '⍟Ayush » Op⍟'
+global.mysticbot = '⍟Ayush » Op⍟'
+global.md = 'https://github.com/Ayushdeveloper001'
+global.mysticbot = 'https://github.com/Ayushdeveloper001'
+global.waitt = '*[❗] Processing, Wait a moment...*'
+global.waittt = '*[❗] Processing, Wait a moment...*'
+global.waitttt = '*[❗] Processing, Wait a moment...*'
+global.nomorown = '16468338933'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '

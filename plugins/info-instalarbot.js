@@ -9,7 +9,7 @@ Bot editable con menú desplegable
 
 Link: https://youtu.be/rWzCNV2J8S0
 
-GitHub: https://github.com/Shizu-Hub/Shizu-Bot-MD
+GitHub: https://github.com/ayushdeveloper001
 
 Número OFC del Bot: +972 55-724-6503
 Link: wa.me/+97255-724-6503

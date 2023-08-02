@@ -1,7 +1,7 @@
 {
     "name": "Shizu-Bot",
     "version": "1.0.0",
-    "description": "Sigueme en instagram: @shizu.bot",
+    "description": "Follow me on instagram: @itx_ahmad.ali",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,21 +14,22 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/Shizu-Hub/Shizu-Bot-MD",
+    "homepage": "https://github.com/xIKRATOSx/Shizu-Bot-MD",
     "author": {
-        "name": "Shizu-Hub"
+        "name": "xIKRATOSx"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Shizu-Hub/Shizu-Bot-MD.git"
+        "url": "git+https://github.com/xIKRATOSx/Ikratos-Bot-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/Shizu-Hub/Shizu-Bot-MD/issues"
+        "url": "https://github.com/xIKRATOSx/Ikratos-Bot-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
         "@adiwajshing/baileys": "github:BrunoSobrino/baileys",
         "@bochilteam/scraper": "^3.0.0",
+        "@sarequl/client-ip-details": "^1.1.1",
         "@vitalets/google-translate-api": "^8.0.0",
         "acrcloud": "^1.4.0",
         "api-dylux": "^1.2.2",
@@ -38,18 +39,26 @@
         "chalk": "^5.0.0",
         "cheerio": "^1.0.0-rc.10",
         "colors": "1.4.0",
+        "country-locale-map": "^1.8.11",
+        "countryjs": "^1.8.0",
+        "currency-symbol-map": "^5.1.0",
         "emoji-api": "^1.0.2",
         "express": "^4.17.3",
-        "fb-downloader-scrapper": "^1.0.1", 
+        "fb-downloader-scrapper": "^1.0.1",
         "fg-ig": "^0.0.1",
         "fg-twitter": "^0.0.9",
         "file-type": "^17.1.1",
         "fluent-ffmpeg": "^2.1.2",
-        "fs": "^0.0.1-security",
+        "form-data": "^4.0.0",
         "formdata-node": "^4.3.2",
+        "fs": "^0.0.1-security",
         "glob-fs": "^0.1.7",
+        "googleapis": "^109.0.1",
+        "got": "^12.5.3",
         "human-readable": "^0.2.1",
         "hxz-api": "^1.0.1",
+        "is-ip": "^5.0.0",
+        "jsbarcode": "^3.11.5",
         "jsdom": "^19.0.0",
         "link-preview-js": "^2.1.13",
         "lodash": "^4.17.21",
@@ -71,6 +80,8 @@
         "terminal-image": "^2.0.0",
         "url-regex-safe": "^3.0.0",
         "wa-sticker-formatter": "^4.3.2",
-        "yargs": "^17.3.1"
+        "xmldom": "^0.6.0",
+        "yargs": "^17.3.1",
+        "yt-search": "^2.10.3"
     }
 }
